@@ -1,0 +1,23 @@
+package abcd;
+
+//class and object
+//variable method constructor and block
+class Parent {
+	void peoprty() {
+		System.out.println("Property");
+	}
+	void marry() {
+		System.out.println("family selection");
+	}
+}
+ public class abcd extends Parent {
+	void marry() {
+		System.out.println(" campus selection");
+	}
+	public static void main(String[] args) {
+		abcd bb = new abcd();
+ bb.marry();
+ bb.peoprty();
+ 
+	}
+}
