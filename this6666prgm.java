@@ -1,0 +1,22 @@
+package this6;
+
+public class this6 {
+//this 
+	int a ;
+	int b ;
+
+void	add(int c , int d)
+	{
+	      a=c;
+	      b=d;
+	}
+void	add1()
+{
+	   System.out.println(a+b);
+}
+	 public static void main(String[] args) {
+			this6 ff = new this6();
+		   ff.add(2, 3);
+		   ff.add1();
+		}
+	}
